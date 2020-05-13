@@ -18,7 +18,7 @@ canvas{
     background-position: 50% 50%;
     display: flex;
     vertical-align: bottom;
-    min-height: 100vh;
+    min-height: none;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -26,7 +26,16 @@ canvas{
     width: 100%;
     height: 100%;
     
+    
 } 
+
+@media (max-width: 1200px) { 
+
+    #particles-js{   
+        background-size: 20%; 
+    }
+    
+    }
 
 .header{
 
@@ -39,10 +48,17 @@ canvas{
     margin: 0 auto;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    @media only screen and (min-width:$cut){
-        margin: 0;
-        font-size: 76px;
-      }
+   
+
+}
+
+@media (max-width: 1200px) { 
+
+.header{   
+    top: 20%;
+    margin: 0;
+    font-size: 76px;
+}
 
 }
 
@@ -71,18 +87,13 @@ canvas{
     margin: 5px;
     border: 2px solid #fff;
     color: #fff;
-    @media only screen and (min-width:$cut) {
-        width: 30px;
-        height: 30px;
-        font-size: 30px;
-        line-height: 30px;
-      }
+ 
 }
 
 
 .down {
     position: absolute;
-    bottom: 25px;
+    bottom: 45px;
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -110,6 +121,16 @@ canvas{
     fill: #fff;
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite;
+}
+
+
+@media (max-width: 1200px) { 
+
+.down{   
+    
+    
+}
+    
 }
 
 .fa-chevron-down:before {
