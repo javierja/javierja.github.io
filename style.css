@@ -13,15 +13,13 @@ canvas{
 #particles-js{ 
 
    
-    background-color: #181818; 
-    background-image: url("logo.png");
+    background-color: #181818;   
     background-position: 50% 50%;
     display: flex;
-    vertical-align: bottom;
-    min-height: none;
+    vertical-align: bottom;   
     background-repeat: no-repeat;
     background-size: cover;
-   
+    min-height: 100vh;
     background-size: 10%; 
     width: 100%;
     height: 100%;
@@ -29,13 +27,12 @@ canvas{
     
 } 
 
-@media (max-width: 1200px) { 
 
-    #particles-js{   
-        background-size: 20%; 
-    }
-    
-    }
+#particles-js .particles-js-canvas-el {
+    height: 100vh!important;
+}
+
+
 
 .header{
 
@@ -43,11 +40,15 @@ canvas{
     text-align: center;
     color: #fff;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+    background-image: url("logo.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 40vh;
    
 
 }
@@ -55,21 +56,12 @@ canvas{
 @media (max-width: 1200px) { 
 
 .header{   
-    top: 20%;
-    margin: 0;
-    font-size: 76px;
+   
 }
 
 }
 
-.header-icons{ 
 
-    display: flex; 
-    align-items: center;
-    text-align: center;
-    
-  
-}
 
 .header-icons a {
     border: none!important;
