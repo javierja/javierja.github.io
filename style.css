@@ -56,7 +56,7 @@ canvas{
 @media (max-width: 1200px) { 
 
 .header{   
-   
+    background-size: 60%; 
 }
 
 }
@@ -81,6 +81,19 @@ canvas{
     color: #fff;
  
 }
+
+@media (max-width: 1200px) { 
+
+    .header-icons .icon{   
+        height: 50px; 
+        width: 50px;
+        font-size: 50px;
+        padding: 20px;
+        
+    }
+    
+    }
+    
 
 
 .down {
@@ -157,13 +170,17 @@ margin-top: 50px;
     margin: 0 auto;
     max-width: 980px;
     margin-top: 50px;
+    padding-bottom: 40px;
     
     }
 
 #insta h1{
    
-        
+        margin: 0 auto;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 10px;
+        padding-bottom: 20px;
+
     }
         
 
@@ -178,10 +195,12 @@ margin-top: 50px;
     .col-sm{
         width: 100% !important;
         display: block !important;
+        
     }
 
     .col-sm iframe{
         width: 100% !important;
+        min-height: 30vh !important;
         
         
     }
