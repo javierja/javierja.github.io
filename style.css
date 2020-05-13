@@ -39,7 +39,10 @@ canvas{
     margin: 0 auto;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-
+    @media only screen and (min-width:$cut){
+        margin: 0;
+        font-size: 76px;
+      }
 
 }
 
@@ -68,6 +71,12 @@ canvas{
     margin: 5px;
     border: 2px solid #fff;
     color: #fff;
+    @media only screen and (min-width:$cut) {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        line-height: 30px;
+      }
 }
 
 
@@ -107,7 +116,7 @@ canvas{
     content: "\f078";
 }
 
-#about{
+#body{
 font-size: 24px;
 width: 90%;
 margin: 0 auto;
@@ -116,10 +125,9 @@ margin-top: 50px;
 
 }
 
-#about h1{
-    width: 90%;
+#body h1{
+   
     margin: 0 auto;
-    padding: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
     
@@ -128,6 +136,23 @@ margin-top: 50px;
 
     margin-top: 30px;
 }
+
+
+#insta{
+    font-size: 24px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 980px;
+    margin-top: 50px;
+    
+    }
+
+#insta h1{
+   
+        
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+        
 
 /* ---- stats.js ---- */ 
 .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } 
