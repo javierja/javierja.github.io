@@ -185,20 +185,16 @@ margin-top: 50px;
         
 
 
-.col-sm{
+.row{
 
     display: inline !important;
 }
 
 @media (max-width: 1200px) { 
 
-    .col-sm{
-        width: 100% !important;
-        display: block !important;
-        
-    }
+ 
 
-    .col-sm iframe{
+    .row iframe{
         width: 100% !important;
         min-height: 30vh !important;
         
