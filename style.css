@@ -156,6 +156,17 @@ margin-top: 50px;
     margin: 0 auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+@media (max-width: 1200px) { 
+
+    #body h1{
+   
+        font-size: 50px !important;
+     
+
+    }
+}
     
     
 #twitch{
@@ -166,7 +177,7 @@ margin-top: 50px;
 
 #insta{
     font-size: 24px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     max-width: 980px;
     margin-top: 50px;
@@ -178,12 +189,22 @@ margin-top: 50px;
    
         margin: 0 auto;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-left: 10px;
+       
         padding-bottom: 20px;
 
     }
         
 
+
+@media (max-width: 1200px) { 
+
+    #insta h1{
+   
+        font-size: 50px !important;
+       
+
+    }
+}
 
 .col-sm{
 
@@ -200,7 +221,7 @@ margin-top: 50px;
 
     .col-sm iframe{
         width: 100% !important;
-        padding: 10px;
+       
         min-height: 45vh !important;
         
         
