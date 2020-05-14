@@ -200,7 +200,8 @@ margin-top: 50px;
 
     .col-sm iframe{
         width: 100% !important;
-        min-height: 30vh !important;
+        padding: 10px;
+        min-height: 35vh !important;
         
         
     }
