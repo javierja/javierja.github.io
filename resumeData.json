@@ -1,0 +1,225 @@
+{
+  "main": {
+    "name":"My Online Resume",
+    "namemi":"Lic. Javier Jaldo",
+    "lin":"https://www.linkedin.com/in/javier-jaldo/",
+    "description":"Soy Programador y Lic. en Tecnología Educativa, me especializo en desarrollo de app webs con Python y su entono. Me gusta trabajar en grupo y ponerle buena onda. Soy creativo y resiliente. Me gusta aprender a diario y crecer laboralmente",
+    "image":"profilepic1.jpg",
+    "bio":"Tengo más de 12 años de experiencia en desarrollo usando distintas tecnologías, las cuales fui cambiando según la demanda acorde a estos tiempos. Me gusta la música, la naturaleza, el fútbol y los asados en familia.",
+    "contactmessage":"Mediante este formulario podrá contactarme ademas de la dirección de e-mail antes colocada",
+    "email": "javierjaldo@gmail.com",
+    "phone": "555-555-5555",
+    "github":"https://javierja.github.io/",
+    "project":"https://javierja.github.io/",
+    "address":{
+      "street":"(Your Street)",
+      "city":"San Miguel de Tuc. -",
+      "state":"Argentina",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "https://javierja.github.io/",
+    "resumedownload":"https://javierja.github.io/",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/javier-jaldo/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/peakyblinders1980/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://javierja.github.io/",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Promedio en conocimiento y manejo de los lenguajes desde básico hacia alto",
+    "education":[
+      {
+        "school":"Universidad Tecnológica Nacional",
+        "degree":"Lic. en Tecnología Educativa",
+        "graduated":"Abril 2021",
+        "description":"Perfil: Diseñar, planificar e implementar proyectos de tecnología educativa en instituciones del sistema educativo entre otras acciones"
+      },
+      {
+        "school":"Universidad Tecnológica Nacional",
+        "degree":"Tec. Universitario en Programación",
+        "graduated":"March 2010",
+        "description":"Perfil: Relevar, analizar, implementar, adaptar y controlar con eficiencia y programación de los sistemas informáticos plicando distintos lenguajes."
+        
+      },
+      {
+        "school":"Instituto San Miguel",
+        "degree":"Traductorado Científico y Literario en Ingles",
+        "graduated":"Cursado sin graduar 2003-2005"
+        
+      }
+    ],
+    "cursos":[
+      {
+        "description":"Javascript (Coserhouse) - Master en Python: Aprender Python 3, Django, Flask y Tkinter  (Udemy) - Machine Learning y Big data : Python, Ananconda, Pandas, Numpy, TensorFlow (Udemy) - Curso de arduino para automatización de sistemas con elecetrónica (USPT)  - Pizarra Digital – Robótica Educativa - Scratch - LMS Moodle (UTN) - Arduino Automatización de Sistemas con Electrónica (Universidad San Pablo-T) - Programación Web: Javascript, CSS, Ajax (IPAP)  - DBAI Oracle.  Control F (UTN) - IT Essentials  Nivel I: Redes, Seguridad, Control F (UTN) - Curso de Ingles realizado (A.T.I.C.A.N.A.) - Operador de programas de Diseño Grafico (IAC) - Postitulo de Especialización Docente de Nivel Superior en Educación y TIC (Min. de Educación) "
+      }
+  
+    ],
+    "work":[
+      {
+        "company":"Vicino Software Factory ",
+        "title":"Python Developer Ssr.",
+        "years":"2021 - Present",
+        "description":"Análisis, desarrollo de lógica e implementación de backend. Estructura y modelado de DB. Grupo de trabajo con Front-dev y PM. Medotología de Scrum."
+      },
+      {
+        "company":"Dirección en Gestión de TI - Gobierno",
+        "title":"Web Developer Sr",
+        "years":"2007 - 2021",
+        "description":"Desarrollo e implementación de páginas y sistemas web. Trabajo en equipo. Análisis y documentación "
+      },
+      {
+        "company":"UTN - FRBA",
+        "title":"Tutor en la materia ‘Informática I’",
+        "years":"2016- 2019",
+        "description":"Tutor en el Centro de e-Learning para la carrera TSA. Facilitador de contenidos y moderador en la plataforma e-Learning"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"95%"
+      },
+      {
+        "name":"Django",
+        "level":"85%"
+      },
+    
+      {
+        "name":"Javascript",
+        "level":"70%"
+      },
+      {
+        "name":"VueJs",
+        "level":"30%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"25%"
+      },
+
+      {
+        "name":"Postgres",
+        "level":"90%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"45%"
+      },
+      {
+        "name":"HTML5",
+        "level":"95%"
+      },
+
+      {
+        "name":"CSS3",
+        "level":"90%"
+      },
+      {
+        "name":"Boostrap",
+        "level":"80%"
+      },
+      {
+        "name":"Tailwind css",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
